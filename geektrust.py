@@ -10,6 +10,7 @@ def main():
     file_path = argv[1]
     f = open(file_path, 'r')
     Lines = f.readlines()
+    //Add your code here to process the input commands
     """
     
 if __name__ == "__main__":
