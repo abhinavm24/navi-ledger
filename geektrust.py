@@ -1,4 +1,5 @@
 from sys import argv
+from ledger.interface import Interface
 
 def main():
     
@@ -12,6 +13,15 @@ def main():
     Lines = f.readlines()
     //Add your code here to process the input commands
     """
+    # Interface().cmdloop()
+    PATH = argv[1] #retrieving path of text file
+
+    #reading the text file
+    FILE = open(PATH, "r")
+    INPUT_LINES = FILE.readlines()
+
+    for line in INPUT_LINES:
+        Interface().onecmd(line) #calling function to route input as required
     
 if __name__ == "__main__":
     main()

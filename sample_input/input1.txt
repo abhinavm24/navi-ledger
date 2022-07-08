@@ -1,4 +1,6 @@
-/*Please add your sample inputs 
-here specific to the problem statement*/
-<INPUT_COMMAND_1> <ARGUMENTS>
-<INPUT_COMMAND_2> <ARGUMENTS>
+LOAN IDIDI Dale 10000 5 4
+LOAN MBI Harry 2000 2 2
+BALANCE IDIDI Dale 5
+BALANCE IDIDI Dale 40
+BALANCE MBI Harry 12
+BALANCE MBI Harry 0
